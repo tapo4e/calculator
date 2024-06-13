@@ -6,7 +6,6 @@ plugins {
 android {
     namespace = "com.example.calculator"
     compileSdk = 34
-
     defaultConfig {
         applicationId = "com.example.calculator"
         minSdk = 30
@@ -29,6 +28,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 

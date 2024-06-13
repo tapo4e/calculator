@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RegularButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">@drawable/regular_background</item>
+    </style>
+
+    <style name="OperationButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">@drawable/operations_baground</item>
+    </style>
+
+    <style name="ClearButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">@drawable/clear_background_button</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">65sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
